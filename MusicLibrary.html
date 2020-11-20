@@ -4,52 +4,73 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Marshalls Musical Menagerie</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    </head>
-    <body>
-        <table class="table">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Title</th>
-                <th scope="col">Album</th>
-                <th scope="col">Artist</th>
-                <th scope="col">Genre</th>
-                <th scope="sol">Release Date</th>
-              </tr>
-            </thead>
-            <tbody class="table-body">
-              <tr>
-                <th scope="row">1</th>
-                <td>November Rain</td>
-                <td>Use Your Illusion I </td>
-                <td>Guns n Roses</td>
-                <td>Rock</td>
-                <td>1991</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Back in Black</td>
-                <td>Back in Black</td>
-                <td>AC/DC</td>
-                <td>Rock</td>
-                <td>1980</td>
-              </tr>
 
-            </tbody>
-          </table>
-                  
-<!-- jquery to select music  -->
-        <script src="getMusic.js"></script>
-    </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Marshalls Musical Menagerie</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+
+<header>
+  <div class="jumbotron">
+    <div class="col-lg-12" id="banner"></div>
+    <h2 id="title"> Marshalls Musical <br> Menagerie</h2>
+
+
+    <div class="container-fluid" id="body">
+      <table class="table-dark table-striped table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Album</th>
+            <th scope="col">Artist</th>
+            <th scope="col">Genre</th>
+            <th scope="sol">Release Date</th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+          <tr>
+            <th scope="row">1</th>
+            <td>November Rain</td>
+            <td>Use Your Illusion I </td>
+            <td>Guns n Roses</td>
+            <td>Rock</td>
+            <td>1991</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Back in Black</td>
+            <td>Back in Black</td>
+            <td>AC/DC</td>
+            <td>Rock</td>
+            <td>1980</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="tagline">
+        <p id="tagline">COME ONE...COME ALL...its MAGICAL!</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- jquery to select music  -->
+  <script src="getMusic.js"></script>
+  </body>
+
 </html>

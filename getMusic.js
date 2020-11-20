@@ -12,7 +12,7 @@ function getAllMusic() {
                 $.each(data, function (index, value) { //.each ~loop for jQuery for each object, return key value pair
                     $('.table-body').append(
                         "<tr>" +
-                        "<td>" + value.id + "</td>" +
+                        // "<td>" + value.id + "</td>" +
                         "<td>" + value.title + "</td>" +
                         "<td>" + value.album + "</td>" +
                         "<td>" + value.artist + "</td>" +

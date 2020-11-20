@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "4a11a61a-2419-46e2-a627-70a0c5575c6a",
+		"name": "Music",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get ALL Music List",
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "www.devcodecampmusiclibrary.com/api/music",
+					"host": [
+						"www",
+						"devcodecampmusiclibrary",
+						"com"
+					],
+					"path": [
+						"api",
+						"music"
+					]
+				},
+				"description": "Get music list from DCC's music API"
+			},
+			"response": []
+		},
+		{
+			"name": "musicbyid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "www.devcodecampmusiclibrary.com/api/music?id=1",
+					"host": [
+						"www",
+						"devcodecampmusiclibrary",
+						"com"
+					],
+					"path": [
+						"api",
+						"music"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
